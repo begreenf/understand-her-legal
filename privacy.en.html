@@ -32,7 +32,15 @@
 <p>The app stores, on the device itself:</p>
 <ul>
   <li>The cycle dates and length the user enters.</li>
-  <li>An optional daily log: the user's own mood, the mood they observe in their partner, whether there was an argument and who started it, and observations from a closed list of options (never free text).</li>
+  <li>An automatic estimate of the cycle phase for each day, calculated by the app itself. It's stored only as an internal audit record — the calendar, the guidance, and the learning engine always recalculate the phase again, they never read this stored value back.</li>
+  <li>An optional daily log, in closed lists of options (never free text):
+    <ul>
+      <li>The user's own mood, and whether they started or escalated an argument that day.</li>
+      <li>The mood they observe in their partner, and observations about her — this is where marking that her period started, for example, lives.</li>
+      <li>Whether there was an argument and, if so, its topic (money, family, plans, work, home, or other).</li>
+      <li>What else was going on that day, from a list shared by both sides of the log (work, money, family, health, sleep, plans, the cycle itself, or nothing in particular).</li>
+    </ul>
+  </li>
   <li>App settings: the chosen icon, notification preferences, and whether Face ID/Touch ID lock is on.</li>
 </ul>
 <p><strong>No name, photo, or any other data that identifies the partner is ever stored</strong>, either locally or on any server. The app has no free-text field at all, precisely so this cannot happen by accident.</p>
@@ -66,9 +74,9 @@
 <ul>
   <li>Is entered by you, not by her. She has no account and no access to the app.</li>
   <li>Stays entirely on your device. The developer of this app never receives, sees, or processes that record — there is no server it ever reaches.</li>
-  <li>Is not shared, not exported, and not synced with anyone or any service, not even with yourself on another device (see "iCloud" above).</li>
+  <li>Is not shared with, or exported to, anyone or any service (see "No export" above), and this version does not actively sync with iCloud (see "iCloud" above). If you back up your whole device — with iCloud or with your computer, as with any other app — that backup may include this record; it's managed by Apple or by your own computer, never by this app's developer.</li>
 </ul>
-<p>This means that, with the app's current architecture, it is your own use of the device — not the developer — that determines what is recorded about your partner and what happens to that record. If your partner has questions about something you've recorded about her, those questions are for you, not for the app's developer, who has no way to identify her or to access what you've recorded.</p>
+<p>This app's developer decides, for everyone alike, what kinds of things the app can record at all (the moods, observations, and topics in this policy, nothing more). But whether to record something specific about your partner on a given day, and what, is your own act, not the developer's — who never receives, sees, or processes that record (see above). If your partner has questions about something you've recorded about her, those questions are for you, not for the app's developer, who has no way to identify her or to access what you've recorded.</p>
 
 <h2>Children</h2>
 <p>Understand Her is not directed at children.</p>
